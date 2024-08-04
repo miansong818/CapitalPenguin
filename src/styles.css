@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+:root {
+  background-color: darkgrey;
+}
+
+.container {
+  display: flex;
+  /* align-items: normal; */
+  flex-wrap: nowrap;
+  text-align: center;
+}
+
+.box {
+  margin: 10px 10px;
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  transition: background-color 0.3s ease;
+}
+
+.box.active {
+  background-color: red;
+}
+
+.selected {
+  background-color: red;
+}
+
+.wrong {
+  background-color: blueviolet;
+}
